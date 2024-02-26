@@ -46,6 +46,9 @@ class TV:
     def setPrecio(self, precio):
         self._precio = precio
         
+    def setControl(self, control):
+        self._control = control
+        
     # Metodos tv
     def turnOn(self):
         self._estado = True
